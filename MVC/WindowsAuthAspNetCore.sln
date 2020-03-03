@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAuthAspNetCore", "WindowsAuthAspNetCore\WindowsAuthAspNetCore.csproj", "{56C50086-5BEB-4A2F-BBD8-B91EA7CCDA75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56C50086-5BEB-4A2F-BBD8-B91EA7CCDA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C50086-5BEB-4A2F-BBD8-B91EA7CCDA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C50086-5BEB-4A2F-BBD8-B91EA7CCDA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C50086-5BEB-4A2F-BBD8-B91EA7CCDA75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4A18A44-2757-4434-97BE-83DA5FE8D853}
+	EndGlobalSection
+EndGlobal

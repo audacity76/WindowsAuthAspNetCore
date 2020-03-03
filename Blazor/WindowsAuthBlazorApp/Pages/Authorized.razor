@@ -1,0 +1,17 @@
+﻿@page "/authorized"
+
+@attribute [Authorize]
+
+@inject AuthenticationStateProvider AuthenticationStateProvider
+
+<p>User: @User</p>
+
+@code{
+    public string User { get; set; }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var auth = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        User = auth.User.Identity.Name; // null!
+    }
+}
